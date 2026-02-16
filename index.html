@@ -6,6 +6,9 @@
     <meta name="description" content="HUDEC PLAN - Ured specijaliziran za prostorno i urbanističko planiranje te savjetodavne usluge u području razvoja prostora.">
     <title>HUDEC PLAN | Prostorno i Urbanističko Planiranje</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://assets.unicorn.studio" crossorigin>
+    <script src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.0.5/dist/unicornStudio.umd.js" defer></script>
 </head>
 <body>
     
@@ -22,8 +25,7 @@
                 <li><a href="#hero" class="nav-link active">Početna</a></li>
                 <li><a href="#o-nama" class="nav-link">O nama</a></li>
                 <li><a href="#usluge" class="nav-link">Usluge</a></li>
-                <li><a href="#projekti" class="nav-link">Projekti</a></li>
-                <li><a href="#proces" class="nav-link">Proces rada</a></li>
+                <li><a href="#korisnici" class="nav-link">Korisnici</a></li>
                 <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
             </ul>
             <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
@@ -39,17 +41,23 @@
          Minimalist, architectural, professional
     ========================================= -->
     <section class="hero" id="hero">
+        <!-- UnicornStudio animated background -->
         <div class="hero-background">
-            <!-- Futuristic grid overlay -->
-            <div class="grid-overlay"></div>
+            <div data-us-project="iXef0cBFIET8BNjb3R5H"
+                 data-us-scale="0.5"
+                 data-us-dpi="1"
+                 data-us-fps="30"
+                 data-us-production="true"
+                 data-us-lazyload="true"
+                 style="width:100%; height:100%;"></div>
         </div>
         <div class="container hero-content">
             <div class="hero-text">
                 <h1 class="hero-title">Stručnost u prostornom planiranju</h1>
                 <p class="hero-subtitle">Pouzdan partner u urbanističkom i prostornom planiranju s dugogodišnjim iskustvom i regulatornom preciznošću</p>
                 <div class="hero-cta">
-                    <a href="#kontakt" class="btn btn-primary">Zatražite konzultacije</a>
-                    <a href="#usluge" class="btn btn-secondary">Naše usluge</a>
+                    <a href="#kontakt" class="btn btn-primary btn-lg">Zatražite konzultacije</a>
+                    <a href="#usluge" class="btn btn-secondary btn-lg">Naše usluge</a>
                 </div>
             </div>
         </div>
@@ -67,7 +75,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">O nama</h2>
-                <p class="section-subtitle">Profesionalna stručnost u službi razvoja prostora</p>
+                <p class="section-subtitle">Inženjerske i konzultantske usluge od 2006. godine</p>
             </div>
             
             <div class="content-grid">
@@ -79,7 +87,7 @@
                         </svg>
                     </div>
                     <h3>Dugogodišnje iskustvo</h3>
-                    <p>Opsežno iskustvo u izradi prostornih i urbanističkih planova za javnu upravu i privatne investitore</p>
+                    <p>Osnovani 2006. godine od strane ovlaštenih inženjera građevinarstva s više od 30 godina radnog staža u struci</p>
                 </div>
 
                 <div class="content-card">
@@ -89,8 +97,8 @@
                             <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
                         </svg>
                     </div>
-                    <h3>Licencirani stručnjaci</h3>
-                    <p>Tim ovlaštenih inženjera prostornog planiranja s potrebnim certificiranjima i licencama</p>
+                    <h3>Inženjerske usluge</h3>
+                    <p>Projektiranje, nadzor, izrada tender dokumentacije, priprema EU projekata, savjetovanje i revizija projektne dokumentacije</p>
                 </div>
 
                 <div class="content-card">
@@ -101,358 +109,164 @@
                             <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"></path>
                         </svg>
                     </div>
-                    <h3>Suradnja s institucijama</h3>
-                    <p>Dugogodišnja suradnja s jedinicama lokalne samouprave i državnim tijelima</p>
+                    <h3>Zaštita okoliša</h3>
+                    <p>Suglasnost Ministarstva za obavljanje stručnih poslova zaštite okoliša, izrade studija o utjecaju na okoliš i sanacijskih elaborata</p>
                 </div>
             </div>
 
             <div class="about-text">
-                <p><strong>HUDEC PLAN</strong> je ured specijaliziran za prostorno i urbanističko planiranje te savjetodavne usluge u području razvoja prostora. Pružamo stručnu podršku investitorima, developerima i javnoj upravi u svim fazama planiranja i razvoja prostora.</p>
-                <p>Naš pristup temelji se na regulatornoj preciznosti, dugoročnom strateškom razmišljanju i transparentnoj komunikaciji sa svim dionicima u procesu planiranja.</p>
+                <p>Tvrtka <strong>HUDEC PLAN d.o.o.</strong> je osnovana 2006. godine. Osnivači su Vesna Hudec i Svjetlan Hudec, ovlašteni inženjeri građevinarstva s više od 30 godina radnog staža u struci.</p>
+                <p>Naša tvrtka se bavi pružanjem inženjerskih i konzultantskih usluga u projektiranju, nadzoru, izradi tender dokumentacije i pripremi projekata sufinanciranih iz europskih fondova, savjetovanjem o poslovanju i upravljanju, nadzorom nad izvođenjem radova i revizijom projektne dokumentacije.</p>
+                <p>Naročito smo prisutni u poslovima vezanim za područje gospodarenja otpadom i zbrinjavanje otpadnih voda.</p>
+                <p>Rješenjem Ministarstva zaštite okoliša i prirode Republike Hrvatske, od veljače 2007. godine, naša tvrtka ima suglasnost za obavljanje stručnih poslova zaštite okoliša, izrade studija o utjecaju zahvata na okoliš, izrade programa zaštite okoliša, elaborata, procjene šteta, sanacijskih elaborata, programa i sanacijskih izvješća.</p>
+                <p>Cilj nam je pružiti vam kvalitetnu i pouzdanu uslugu, uz poštivanje svih normi zaštite i očuvanja okoliša.</p>
             </div>
         </div>
     </section>
 
     <!-- ========================================
          USLUGE SECTION
-         Structured service categories
+         5 service categories from context.md
     ========================================= -->
     <section class="section usluge" id="usluge">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Usluge</h2>
-                <p class="section-subtitle">Sveobuhvatna podrška u prostornom i urbanističkom planiranju</p>
+                <p class="section-subtitle">Sveobuhvatna podrška u planiranju, projektiranju i zaštiti okoliša</p>
             </div>
 
             <div class="services-grid">
-                <!-- Service 1 -->
-                <div class="service-card">
+                <!-- Service 1: Projektiranje -->
+                <div class="service-card" data-service-id="projektiranje" role="button" tabindex="0" aria-label="Projektiranje — prikaži referentne projekte">
                     <div class="service-number">01</div>
-                    <h3 class="service-title">Izrada prostornih planova</h3>
-                    <p class="service-description">Izrada prostornih planova uređenja za jedinice lokalne i regionalne samouprave</p>
-                    <ul class="service-details">
-                        <li><strong>Namijenjena:</strong> Jedinice lokalne samouprave</li>
-                        <li><strong>Primjena:</strong> Strateško planiranje razvoja prostora</li>
-                    </ul>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="service-card">
-                    <div class="service-number">02</div>
-                    <h3 class="service-title">Urbanistički planovi uređenja (UPU)</h3>
-                    <p class="service-description">Izrada detaljnih urbanističkih planova za uređenje građevinskog područja</p>
+                    <h3 class="service-title">Projektiranje</h3>
+                    <p class="service-description">Izrada projektne dokumentacije svih stupnjeva, za izdavanje lokacijske i građevinske dozvole.</p>
                     <ul class="service-details">
                         <li><strong>Namijenjena:</strong> Investitori, developeri, JLS</li>
-                        <li><strong>Primjena:</strong> Definiranje uvjeta gradnje</li>
+                        <li><strong>Kontekst:</strong> Idejni projekt, Glavni projekt, Izvedbeni projekt, Elaborati zaštite, Natječajna dokumentacija</li>
                     </ul>
+                    <span class="service-cta btn btn-ghost btn-sm">Pogledaj reference →</span>
                 </div>
 
-                <!-- Service 3 -->
-                <div class="service-card">
+                <!-- Service 2: Zaštita prirode i okoliša -->
+                <div class="service-card" data-service-id="zastita-prirode" role="button" tabindex="0" aria-label="Zaštita prirode i okoliša — prikaži referentne projekte">
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">Zaštita prirode i okoliša</h3>
+                    <p class="service-description">Izrada dokumentacije iz područja zaštite prirode i okoliša.</p>
+                    <ul class="service-details">
+                        <li><strong>Namijenjena:</strong> Komunalna poduzeća, općine, gradovi, županije</li>
+                        <li><strong>Kontekst:</strong> Elaborati zaštite okoliša, Sanacijski programi, Planovi gospodarenja otpadom, Studije izvodljivosti</li>
+                    </ul>
+                    <span class="service-cta btn btn-ghost btn-sm">Pogledaj reference →</span>
+                </div>
+
+                <!-- Service 3: Vođenje i praćenje projekata -->
+                <div class="service-card" data-service-id="vodjenje-projekata" role="button" tabindex="0" aria-label="Vođenje i praćenje projekata — prikaži referentne projekte">
                     <div class="service-number">03</div>
-                    <h3 class="service-title">Izmjene i dopune planova</h3>
-                    <p class="service-description">Stručna izrada izmjena i dopuna postojećih prostornih i urbanističkih planova</p>
+                    <h3 class="service-title">Vođenje i praćenje projekata</h3>
+                    <p class="service-description">Vođenje projekata za potrebe investitora, koordiniranje rada projektanata, izvođača i nadzora — od ideje do puštanja u pogon.</p>
                     <ul class="service-details">
-                        <li><strong>Namijenjena:</strong> Pravne osobe, investitori</li>
-                        <li><strong>Primjena:</strong> Prilagodba planova novim potrebama</li>
+                        <li><strong>Namijenjena:</strong> Investitori, fondovi, javne ustanove</li>
+                        <li><strong>Kontekst:</strong> Projektantski nadzor, koordinacija dionika, praćenje izvođenja radova prema FIDIC uvjetima</li>
                     </ul>
+                    <span class="service-cta btn btn-ghost btn-sm">Pogledaj reference →</span>
                 </div>
 
-                <!-- Service 4 -->
-                <div class="service-card">
+                <!-- Service 4: Savjetovanje -->
+                <div class="service-card" data-service-id="savjetovanje" role="button" tabindex="0" aria-label="Savjetovanje — prikaži referentne projekte">
                     <div class="service-number">04</div>
-                    <h3 class="service-title">Stručne podloge</h3>
-                    <p class="service-description">Izrada stručnih podloga i analiza za potrebe prostornog planiranja</p>
+                    <h3 class="service-title">Savjetovanje</h3>
+                    <p class="service-description">Savjetovanje komunalnih poduzeća i organa lokalne samouprave.</p>
                     <ul class="service-details">
-                        <li><strong>Namijenjena:</strong> JLS, državne institucije</li>
-                        <li><strong>Primjena:</strong> Priprema dokumentacije za planiranje</li>
+                        <li><strong>Namijenjena:</strong> Komunalna poduzeća, općine, gradovi, županije</li>
+                        <li><strong>Kontekst:</strong> Postupanje s otpadom, Izrada projektnih zadataka, Studije gospodarenja otpadom</li>
                     </ul>
+                    <span class="service-cta btn btn-ghost btn-sm">Pogledaj reference →</span>
                 </div>
 
-                <!-- Service 5 -->
-                <div class="service-card">
+                <!-- Service 5: EU fondovi -->
+                <div class="service-card" data-service-id="eu-fondovi" role="button" tabindex="0" aria-label="Izrada dokumentacije za EU fondove — prikaži referentne projekte">
                     <div class="service-number">05</div>
-                    <h3 class="service-title">Urbanističke studije</h3>
-                    <p class="service-description">Izrada studija izvedivosti i urbanističkih studija za kompleksne projekte</p>
+                    <h3 class="service-title">Izrada dokumentacije za EU fondove</h3>
+                    <p class="service-description">Izrada projektne i natječajne dokumentacije po PRAG-u i FIDIC-u te prema Zakonu o javnoj nabavi.</p>
                     <ul class="service-details">
-                        <li><strong>Namijenjena:</strong> Developeri, investitori</li>
-                        <li><strong>Primjena:</strong> Procjena izvedivosti projekata</li>
+                        <li><strong>Namijenjena:</strong> JLS, javna poduzeća</li>
+                        <li><strong>Kontekst:</strong> Projektni prijedlozi, tender dokumentacija, natječajna dokumentacija za EU financirane projekte</li>
                     </ul>
-                </div>
-
-                <!-- Service 6 -->
-                <div class="service-card">
-                    <div class="service-number">06</div>
-                    <h3 class="service-title">Savjetovanje u postupcima planiranja</h3>
-                    <p class="service-description">Stručno savjetovanje i podrška kroz sve faze postupka planiranja</p>
-                    <ul class="service-details">
-                        <li><strong>Namijenjena:</strong> Svi dionici u planiranju</li>
-                        <li><strong>Primjena:</strong> Navigacija kroz administrativne procese</li>
-                    </ul>
+                    <span class="service-cta btn btn-ghost btn-sm">Pogledaj reference →</span>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ========================================
-         PROJEKTI / REFERENCE SECTION
-         Grid display with filtering
+         SERVICE MODAL
+         Overlay with reference projects per service
     ========================================= -->
-    <section class="section projekti" id="projekti">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Projekti i reference</h2>
-                <p class="section-subtitle">Demonstracija stručnosti kroz realizirane projekte</p>
+    <div class="modal-overlay" id="serviceModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+        <div class="modal-box">
+            <div class="modal-header">
+                <div>
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <p class="modal-subtitle" id="modalSubtitle"></p>
+                </div>
+                <button class="modal-close" id="modalClose" aria-label="Zatvori modal">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
             </div>
-
-            <!-- Filter buttons -->
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">Svi projekti</button>
-                <button class="filter-btn" data-filter="prostorni">Prostorni planovi</button>
-                <button class="filter-btn" data-filter="upu">UPU</button>
-                <button class="filter-btn" data-filter="izmjene">Izmjene i dopune</button>
-                <button class="filter-btn" data-filter="studije">Studije</button>
-            </div>
-
-            <!-- Projects grid -->
-            <div class="projects-grid" id="projectsGrid">
-                <!-- Project 1 -->
-                <div class="project-card" data-category="prostorni">
-                    <div class="project-header">
-                        <h3 class="project-title">Prostorni plan uređenja Grada</h3>
-                        <span class="project-year">2023</span>
-                    </div>
-                    <div class="project-meta">
-                        <span class="project-location">Zagreb</span>
-                        <span class="project-type">Prostorni plan</span>
-                    </div>
-                    <p class="project-description">Izrada prostornog plana uređenja za područje grada s fokusom na održivi razvoj</p>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card" data-category="upu">
-                    <div class="project-header">
-                        <h3 class="project-title">UPU Poslovna zona</h3>
-                        <span class="project-year">2023</span>
-                    </div>
-                    <div class="project-meta">
-                        <span class="project-location">Split</span>
-                        <span class="project-type">UPU</span>
-                    </div>
-                    <p class="project-description">Urbanistički plan uređenja za novu poslovnu zonu s infrastrukturnim rješenjima</p>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card" data-category="izmjene">
-                    <div class="project-header">
-                        <h3 class="project-title">Izmjena i dopuna PPU</h3>
-                        <span class="project-year">2022</span>
-                    </div>
-                    <div class="project-meta">
-                        <span class="project-location">Rijeka</span>
-                        <span class="project-type">Izmjene i dopune</span>
-                    </div>
-                    <p class="project-description">Izmjena postojećeg prostornog plana radi omogućavanja novog razvoja</p>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card" data-category="studije">
-                    <div class="project-header">
-                        <h3 class="project-title">Urbanistička studija turističke zone</h3>
-                        <span class="project-year">2022</span>
-                    </div>
-                    <div class="project-meta">
-                        <span class="project-location">Dubrovnik</span>
-                        <span class="project-type">Studija</span>
-                    </div>
-                    <p class="project-description">Studija izvedivosti i urbanističko rješenje za turističku zonu</p>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card" data-category="upu">
-                    <div class="project-header">
-                        <h3 class="project-title">UPU Stambeno naselje</h3>
-                        <span class="project-year">2021</span>
-                    </div>
-                    <div class="project-meta">
-                        <span class="project-location">Osijek</span>
-                        <span class="project-type">UPU</span>
-                    </div>
-                    <p class="project-description">Planiranje novog stambenog naselja s pratećim sadržajima</p>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="project-card" data-category="prostorni">
-                    <div class="project-header">
-                        <h3 class="project-title">Prostorni plan Općine</h3>
-                        <span class="project-year">2021</span>
-                    </div>
-                    <div class="project-meta">
-                        <span class="project-location">Zadar</span>
-                        <span class="project-type">Prostorni plan</span>
-                    </div>
-                    <p class="project-description">Strateški prostorni plan za područje općine s dugoročnom vizijom</p>
-                </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Projects injected by JS -->
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- ========================================
-         PROCES RADA SECTION
-         Clear workflow visualization
+         KORISNICI USLUGA SECTION
+         Animated marquee with client names
     ========================================= -->
-    <section class="section proces" id="proces">
+    <section class="section korisnici" id="korisnici">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Proces rada</h2>
-                <p class="section-subtitle">Strukturiran pristup u svim fazama planiranja</p>
-            </div>
-
-            <div class="process-timeline">
-                <!-- Phase 1 -->
-                <div class="process-step">
-                    <div class="step-number">
-                        <span>01</span>
-                    </div>
-                    <div class="step-content">
-                        <h3 class="step-title">Analiza i izrada stručnih podloga</h3>
-                        <p class="step-description">Detaljna analiza postojećeg stanja, prikupljanje podataka i izrada potrebnih stručnih podloga za planiranje</p>
-                        <ul class="step-list">
-                            <li>Analiza prostora i postojeće dokumentacije</li>
-                            <li>Prikupljanje podataka od nadležnih institucija</li>
-                            <li>Izrada kartografskih podloga</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Phase 2 -->
-                <div class="process-step">
-                    <div class="step-number">
-                        <span>02</span>
-                    </div>
-                    <div class="step-content">
-                        <h3 class="step-title">Izrada prijedloga plana</h3>
-                        <p class="step-description">Izrada prijedloga prostornog ili urbanističkog plana u skladu s važećim propisima i potrebama investitora</p>
-                        <ul class="step-list">
-                            <li>Definiranje planskih rješenja</li>
-                            <li>Usklađivanje s nadređenim planovima</li>
-                            <li>Priprema tekstualnog i grafičkog dijela</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Phase 3 -->
-                <div class="process-step">
-                    <div class="step-number">
-                        <span>03</span>
-                    </div>
-                    <div class="step-content">
-                        <h3 class="step-title">Sudjelovanje u javnoj raspravi</h3>
-                        <p class="step-description">Aktivno sudjelovanje u postupku javne rasprave i obrada primjedbi i prijedloga</p>
-                        <ul class="step-list">
-                            <li>Prezentacija planskih rješenja</li>
-                            <li>Odgovaranje na pitanja i primjedbe</li>
-                            <li>Prilagodba plana prema potrebi</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Phase 4 -->
-                <div class="process-step">
-                    <div class="step-number">
-                        <span>04</span>
-                    </div>
-                    <div class="step-content">
-                        <h3 class="step-title">Finalizacija i usvajanje</h3>
-                        <p class="step-description">Finalizacija dokumentacije i podrška u postupku usvajanja plana od strane nadležnog tijela</p>
-                        <ul class="step-list">
-                            <li>Izrada konačne verzije plana</li>
-                            <li>Priprema za usvajanje</li>
-                            <li>Podrška u postupku donošenja</li>
-                        </ul>
-                    </div>
-                </div>
+                <h2 class="section-title">Korisnici usluga</h2>
+                <p class="section-subtitle">Dugogodišnja suradnja s javnom upravom i privatnim sektorom</p>
             </div>
         </div>
-    </section>
-
-    <!-- ========================================
-         ZAŠTO HUDEC PLAN SECTION
-         Key differentiators
-    ========================================= -->
-    <section class="section zasto">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Zašto HUDEC PLAN?</h2>
-                <p class="section-subtitle">Ključni diferencijatori koji nas izdvajaju</p>
-            </div>
-
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Dugogodišnje iskustvo</h3>
-                    <p>Opsežno iskustvo u izradi svih vrsta prostornih i urbanističkih planova</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Regulatorna stručnost</h3>
-                    <p>Dubinsko poznavanje propisa i administrativnih procedura</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"></path>
-                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Suradnja s institucijama</h3>
-                    <p>Etablirana suradnja s javnom upravom i državnim tijelima</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Preciznost i transparentnost</h3>
-                    <p>Jasan i transparentan pristup u svim fazama suradnje</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"></path>
-                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                        </svg>
-                    </div>
-                    <h3>Dugoročno strateško razmišljanje</h3>
-                    <p>Fokus na održiva i dugoročno kvalitetna planska rješenja</p>
-                </div>
+        <div class="marquee" aria-label="Popis korisnika usluga">
+            <div class="marquee-track">
+                <span class="marquee-item">Fond za zaštitu okoliša i energetsku učinkovitost</span>
+                <span class="marquee-item">Hrvatske autoceste d.o.o.</span>
+                <span class="marquee-item">Grad Samobor</span>
+                <span class="marquee-item">Grad Bjelovar</span>
+                <span class="marquee-item">Grad Hvar</span>
+                <span class="marquee-item">Grad Kaštela</span>
+                <span class="marquee-item">Grad Sisak</span>
+                <span class="marquee-item">Grad Krk</span>
+                <span class="marquee-item">Grad Split</span>
+                <span class="marquee-item">Grad Ogulin</span>
+                <span class="marquee-item">Grad Šibenik</span>
+                <span class="marquee-item">Općina Udbina</span>
+                <span class="marquee-item">Općina Matulji</span>
+                <span class="marquee-item">Općina Jelsa</span>
+                <span class="marquee-item">Općina Perušić</span>
+                <span class="marquee-item">Općina Polača</span>
+                <span class="marquee-item">Općina Donji Lapac</span>
+                <span class="marquee-item">Općina Rakovica</span>
+                <span class="marquee-item">Općina Omišalj</span>
+                <span class="marquee-item">Luka Rijeka</span>
+                <span class="marquee-item">HEP Proizvodnja d.o.o.</span>
+                <span class="marquee-item">HŽ Infrastruktura</span>
+                <span class="marquee-item">Ministarstvo zaštite okoliša</span>
+                <span class="marquee-item">EU CARDS 2002</span>
             </div>
         </div>
     </section>
 
     <!-- ========================================
          KONTAKT SECTION
-         Clear, discreet contact form
+         Contact info, form, and map
     ========================================= -->
     <section class="section kontakt" id="kontakt">
         <div class="container">
@@ -462,6 +276,21 @@
             </div>
 
             <div class="contact-wrapper">
+                <!-- Map -->
+                <div class="contact-map">
+                    <!-- Replace the src with your actual Google Maps embed URL -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.5!2d15.9819!3d45.8150!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDQ4JzU0LjAiTiAxNcKwNTgnNTQuOCJF!5e0!3m2!1shr!2shr!4v1"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0; border-radius: 12px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Lokacija HUDEC PLAN ureda">
+                    </iframe>
+                </div>
+
                 <!-- Contact info -->
                 <div class="contact-info">
                     <div class="contact-item">
@@ -503,38 +332,6 @@
                     </div>
                 </div>
 
-                <!-- Contact form -->
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Ime i prezime</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">Email adresa</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="phone">Telefon</label>
-                            <input type="tel" id="phone" name="phone">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="subject">Predmet</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message">Poruka</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">Pošalji upit</button>
-                        <div class="form-message" id="formMessage"></div>
-                    </form>
-                </div>
             </div>
         </div>
     </section>
@@ -565,7 +362,18 @@
         </div>
     </footer>
 
+    <!-- UnicornStudio init (library loaded via defer in head) -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        if (window.UnicornStudio && UnicornStudio.init) {
+            UnicornStudio.init();
+        }
+    });
+    </script>
+
     <!-- Link to JavaScript -->
+    <script src="service-data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
+
